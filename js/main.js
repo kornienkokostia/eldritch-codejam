@@ -151,21 +151,21 @@ document.querySelector('.shuffle-button').addEventListener('click', () => {
     firstStage.map(el => {
         const cardDiv = document.createElement('div')
         cardDiv.setAttribute('class', 'card')
-        cardDiv.style.backgroundImage = `url(../assets/MythicCards/${el.color}/${el.id}.webp)`
+        cardDiv.style.backgroundImage = `url(./assets/MythicCards/${el.color}/${el.id}.webp)`
         deck.appendChild(cardDiv)
         cards.push(cardDiv)
     })
     secondStage.map(el => {
         const cardDiv = document.createElement('div')
         cardDiv.setAttribute('class', 'card')
-        cardDiv.style.backgroundImage = `url(../assets/MythicCards/${el.color}/${el.id}.webp)`
+        cardDiv.style.backgroundImage = `url(./assets/MythicCards/${el.color}/${el.id}.webp)`
         deck.appendChild(cardDiv)
         cards.push(cardDiv)
     })
     thirdStage.map(el => {
         const cardDiv = document.createElement('div')
         cardDiv.setAttribute('class', 'card')
-        cardDiv.style.backgroundImage = `url(../assets/MythicCards/${el.color}/${el.id}.webp)`
+        cardDiv.style.backgroundImage = `url(./assets/MythicCards/${el.color}/${el.id}.webp)`
         deck.appendChild(cardDiv)
         cards.push(cardDiv)
     })
